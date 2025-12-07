@@ -1,7 +1,7 @@
 # Opinion-Mining-of-E-Commerce-Product-Reviews-for-Sentiment-Classification
 This project implements a complete Sentiment Classification system for e-commerce product reviews using NLP and IR techniques. Using the Datafiniti Amazon Reviews dataset (71,000+ reviews), the system classifies customer feedback into Happy, OK, or Unhappy categories and retrieves relevant reviews using TF-IDF and BM25 retrieval.
 
-Project Features
+## Project Features
 1. End-to-End NLP Pipeline
 
 Text cleaning (punctuation removal, stopword removal, stemming)
@@ -40,34 +40,27 @@ TF-IDF vs BM25 top-k comparisons
 
 Classification metric bar charts
 
-📊 Key Findings
+## 📊 Key Findings
 
 SGD outperformed SVM across all classification metrics.
 
 BM25 retrieved more relevant top-k reviews than TF-IDF, showing stronger ranking performance.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
+- Python
+- Scikit-learn
+- NLTK
+- Pandas / NumPy
+- Rank-BM25
+- Matplotlib / Seaborn
+- Jupyter Notebook
 
-Python
-
-Scikit-learn
-
-NLTK
-
-Pandas / NumPy
-
-Rank-BM25
-
-Matplotlib / Seaborn
-
-Jupyter Notebook
-
-📄 Dataset
+## 📄 Dataset
 
 Datafiniti’s Consumer Reviews Dataset
 Contains: product metadata, ratings, and text reviews.
 
-📁 Repository Contents
+## 📁 Repository Contents
 ├── data/                     # Dataset (or link instructions)
 ├── preprocessing.py          # Text cleaning + sentiment mapping
 ├── model_training.ipynb      # ML models training & evaluation
