@@ -1,0 +1,2 @@
+# Opinion-Mining-of-E-Commerce-Product-Reviews-for-Sentiment-Classification
+This project implements a complete Sentiment Classification system for e-commerce product reviews using NLP and IR techniques. Using the Datafiniti Amazon Reviews dataset (71,000+ reviews), the system classifies customer feedback into Happy, OK, or Unhappy categories and retrieves relevant reviews using TF-IDF and BM25 retrieval
